@@ -1,0 +1,175 @@
+body{
+    background-color: #B3ADEF;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.chat{
+    margin-top: 70px;
+    width: 1100px;
+    background-color: #FBF5FF;
+    border-radius: 10px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbar .rightbar {
+    height: 100%;
+}
+
+.leftbar{
+    width: 32%;
+    background-color: #483d8b;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+}
+.rightbar{
+    width: 68%;
+}
+/* .rightbar p{
+    color: rgb(197, 189, 189);
+    font-size: 30px;
+} */
+.account{
+    padding: 10px;
+}
+.hver:hover{
+    transition: 0.3s;
+    background-color:#282061;
+}
+.center{
+    display: flex; 
+    flex-direction: row; 
+}
+.avatar img{
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.people{
+    height: 55px;
+}
+.people img{
+    width: 55px;
+    height: 55px;
+}
+.people h3, .people p{
+    margin: 5px 0 0 0;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 0 8px;
+}
+
+.logout{
+    width: 60px;
+    border-radius: 0px;
+    background-color: darkslateblue;
+    color:white;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.communication{
+    background-color: #d7d4ff;
+}
+.communication img{
+    width: 45px;
+    height: 45px;
+}
+.me{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    background-color:#282061;
+    color: white;
+    height: 70px;
+    border-left: solid white 1px;
+}
+.single_message{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+}
+.me .single_message{
+    background-color: white;
+    border-radius: 0 10px 10px 10px;
+    color: black
+}
+.person .single_message{
+    background-color: rgb(106, 165, 243);
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+.mess{
+    margin: 0 40px 0 10px;
+    font-size: 25px;
+}
+.time{
+    position: absolute;
+    bottom: -10;
+    right: 5;
+    font-size: 13px;
+    color: rgb(241, 236, 236);
+}
+.me .time{
+    color: rgb(26, 25, 25);
+}
+.upper{
+    height: 79%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    margin:4px, 4px;
+}
+
+.lower{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    background-color: white;
+}
+.input{
+    height: 60px;
+    width: 90%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    margin-left: 5px;
+}
+.sendbttn{
+    cursor: pointer;
+    background-color: #483d8b;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+}
